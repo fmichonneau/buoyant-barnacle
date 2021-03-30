@@ -12,7 +12,7 @@
 
 
 
-<title>Buoyant Barnacle: Setup</title>
+<title>Buoyant Barnacle: Getting the session info</title>
 
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicons/cp/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicons/cp/apple-touch-icon-114x114.png" />
@@ -74,7 +74,7 @@
 
 
 
-<meta property="og:title" content="Setup" />
+<meta property="og:title" content="Getting the session info" />
 
 
 
@@ -182,22 +182,48 @@
 <div class="row">
   <div class="contents col-md-9">
     <div class="page-header">
-      <h1>Setup</h1>
+      <h1>Getting the session info</h1>
     </div>
 
-<aside class="instructor">
-<div>
-<p>Setup instructions live in this document. Please specify the tools and the data sets the learner needs to have installed. If you want to hide different setup instructions, you can use a <code>solution</code> tag.</p>
+<div id="session-info" class="section level2">
+<h2>Session info</h2>
+</div>
+<div class="challenge">
+<div class="section level2">
+<h2>Challenge</h2>
+<p>How do you get the session info?</p>
+</div>
+<div class="section level2 solution">
+<h2>Solution</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="kw">sessionInfo</span>()</span></code></pre></div>
+<pre class="output"><code>R version 4.0.4 (2021-02-15)
+Platform: x86_64-apple-darwin17.0 (64-bit)
+Running under: macOS Catalina 10.15.7
+
+Matrix products: default
+BLAS:   /Library/Frameworks/R.framework/Versions/4.0/Resources/lib/libRblas.dylib
+LAPACK: /Library/Frameworks/R.framework/Versions/4.0/Resources/lib/libRlapack.dylib
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+ [1] compiler_4.0.4       magrittr_2.0.1       assertthat_0.2.1    
+ [4] tools_4.0.4          fs_1.5.0             stringi_1.5.3       
+ [7] knitr_1.31           stringr_1.4.0        xfun_0.22           
+[10] evaluate_0.14        sandpaper_0.0.0.9016</code></pre>
+</div>
+</div>
+<aside class="callout">
+<div class="section level3">
+<h3>Callout</h3>
+<p>There is also <code>sessioninfo::session_info()</code>.</p>
 </div>
 </aside>
-<div id="for-windows" class="section level2 solution">
-<h2>For Windows</h2>
-<p>Use PuTTY</p>
-</div>
-<div id="for-macos" class="section level2 solution">
-<h2>For MacOS</h2>
-<p>Use Terminal.app</p>
-</div>
+<!-- Please do not delete anything below this line -->
 
   </div>
 
@@ -219,7 +245,7 @@
   <div class="row">
     <div class="col-xs-1">
       <h3 class="text-left">
-        <a href="index.html"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span><span class="sr-only">previous episode</span></a>
+        <a href="01-introduction.html"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span><span class="sr-only">previous episode</span></a>
       </h3>
     </div>
     <div class="col-xs-10">
@@ -240,7 +266,7 @@
       by <a href="https://softwarecarpentry.org">Software Carpentry Foundation</a>
     </div>
     <div class="col-md-6 help-links pull-right" align="right">
-      <a href="https://github.com/fmichonneau/buoyant-barnacle/edit/main/learners/Setup.md" data-checker-ignore>Edit on GitHub</a>
+      <a href="https://github.com/fmichonneau/buoyant-barnacle/edit/main/episodes/02-next-episode.Rmd" data-checker-ignore>Edit on GitHub</a>
       /
       <a href="https://github.com/fmichonneau/buoyant-barnacle/blob/main/CONTRIBUTING.md" data-checker-ignore>Contributing</a>
       /
