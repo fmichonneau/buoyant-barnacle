@@ -1,0 +1,31 @@
+---
+title: "Getting the session info"
+teaching: 10
+exercises: 2
+---
+
+## Session info
+
+::::::::::::::::::::::::::::::::::::::::: challenge
+
+How do you get the session info?
+
+
+:::::::::::::::::::::::: solution 
+
+```{r}
+sessionInfo()
+```
+
+:::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::: callout
+There is also `sessioninfo::session_info()`.
+:::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+<!-- Please do not delete anything below this line -->
+
+```{r links, child = sandpaper::template_links()}
+```

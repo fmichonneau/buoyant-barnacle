@@ -10,7 +10,7 @@
 carpentry: cp
 
 # Overall title for pages.
-title: Lesson Title
+title: Buoyant Barnacle
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
@@ -20,7 +20,7 @@ life_cycle: pre-alpha
 license: CC-BY 4.0
 
 # Link to the source repository for this lesson
-source: https://github.com/carpentries/sandpaper
+source: https://github.com/fmichonneau/buoyant-barnacle
 
 # Default branch of your lesson
 branch: main
@@ -43,7 +43,9 @@ contact: team@carpentries.org
 # individual pages in each dropdown section
 
 # Order of episodes in your lesson 
-episodes: 
+episodes:
+  - 01-introduction.Rmd
+  - 02-next-episode.Rmd
 
 # Information for Learners
 learners: 
