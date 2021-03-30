@@ -1,0 +1,6 @@
+"file" "checksum" "built"
+"/Users/runner/work/buoyant-barnacle/buoyant-barnacle/CODE_OF_CONDUCT.md" "8d9e44dd5c39f241b5e8b47ecfc802d1" "/Users/runner/work/buoyant-barnacle/buoyant-barnacle/site/built/CODE_OF_CONDUCT.md"
+"/Users/runner/work/buoyant-barnacle/buoyant-barnacle/LICENSE.md" "afaf427b4223952624dcb6d8ded53ec0" "/Users/runner/work/buoyant-barnacle/buoyant-barnacle/site/built/LICENSE.md"
+"/Users/runner/work/buoyant-barnacle/buoyant-barnacle/index.md" "fe56dfea3c4269cceb361470e2ca1437" "/Users/runner/work/buoyant-barnacle/buoyant-barnacle/site/built/index.md"
+"/Users/runner/work/buoyant-barnacle/buoyant-barnacle/episodes/01-introduction.Rmd" "a54f35758ee57b51d5cff5e32ff79e67" "/Users/runner/work/buoyant-barnacle/buoyant-barnacle/site/built/01-introduction.md"
+"/Users/runner/work/buoyant-barnacle/buoyant-barnacle/learners/Setup.md" "0e4e4d7028efbf7d756a08217126884f" "/Users/runner/work/buoyant-barnacle/buoyant-barnacle/site/built/Setup.md"
